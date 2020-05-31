@@ -7,4 +7,4 @@ build-docker:
 
 .PHONY: build-singularity
 build-singularity: build-docker
-	sudo singularity build pytorch-mnist.sif docker-daemon://pytorch-mnist:latest
+	sudo singularity build pytorch-mnist.sif Singularity
